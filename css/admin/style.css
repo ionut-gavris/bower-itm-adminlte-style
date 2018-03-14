@@ -1,0 +1,25 @@
+/*
+Template:       This file is specific for projects with DataTables of IT Maniax
+Info:           This file will contain ITM classes
+Web:            http://www.itmaniax.com
+*/
+/******************************************************************************/
+/************               GENERAL SETTINGS                    ***************/
+/******************************************************************************/
+
+table.dataTable {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+table.dataTable th,
+table.dataTable td {
+    overflow-wrap: break-word;
+    overflow: hidden;
+    vertical-align: middle !important;
+}
+table.dataTable td img {
+    max-width: 200px;
+    max-height: 100px;
+    margin: 0 auto;
+    display: block;
+}
