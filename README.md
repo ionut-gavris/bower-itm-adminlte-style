@@ -5,7 +5,7 @@
 # README #
 
 This repository contains a bower module.
-It contains CSS for DataTables general configuration created by IT-Maniax Team.
+It contains CSS for DataTables and AdminLTE general configuration created by IT-Maniax Team.
 
 ***
 
