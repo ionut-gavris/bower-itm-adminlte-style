@@ -28,7 +28,7 @@ How to give the name of the variable.
 /****   COLORS      **********************************************************/
 /*****************************************************************************/
 :root {
-    --1: #FFFFFF;
+    --color_white-1: #FFFFFF;
     --color_black-1: #000000;
     --color_black-2: #343a40;
     --color_grey-1: #dddddd;
