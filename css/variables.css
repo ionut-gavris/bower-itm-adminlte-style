@@ -53,10 +53,10 @@ How to give the name of the variable.
 /****   THEME      **********************************************************/
 /*****************************************************************************/
 :root {
-    --theme_primary_color: var(--color_light);
-    --theme_primary_color-hover:v ar(--color_light-hover);
-    --theme_secondary_color: var(--color_info);
-    --theme_secondary_color-hover: var(--color_info-hover);
+    --theme_color_primary: var(--color_light);
+    --theme_color_primary-hover: var(--color_light-hover);
+    --theme_color_secondary: var(--color_info);
+    --theme_color_secondary-hover: var(--color_info-hover);
 }
 /*****************************************************************************/
 /****   FONTS       **********************************************************/
