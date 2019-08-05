@@ -26,6 +26,45 @@ table.dataTable td img {
     min-height: calc(100vh - 57px);
 }
 /******************************************************************************/
+/*********  THEME *************************************************************/
+/******************************************************************************/
+
+.sidebar .nav-sidebar > .nav-item > .nav-link.active,
+.sidebar .nav-sidebar > .nav-item.menu-open > .nav-link,
+.sidebar .nav-sidebar > .nav-item.has-treeview > .nav-link.active,
+.sidebar .nav.nav-treeview > .nav-item > .nav-link.active,
+.sidebar .nav-sidebar > .nav.nav-treeview > .nav-item > .nav-link
+.sidebar .nav-sidebar > .nav.nav-treeview > .nav-item > .nav-link.active {
+    background-color: var(--theme_secondary_color);
+}
+
+a.bg-success,
+.nav-item > .user-panel > a.nav-link,
+.sidebar .nav-sidebar > .nav-item > .nav-link,
+.sidebar .nav-sidebar > .nav-item > .nav-link.active,
+.sidebar .nav-sidebar > .nav-item.menu-open > .nav-link,
+.sidebar .nav.nav-treeview > .nav-item > .nav-link,
+.sidebar .nav.nav-treeview > .nav-item > .nav-link.active,
+.sidebar .nav-sidebar > .nav.nav-treeview > .nav-item > .nav-link,
+.sidebar .nav-sidebar > .nav.nav-treeview > .nav-item > .nav-link.active {
+    transition: .3s;
+}
+
+.nav.nav-treeview > .nav-item > .nav-link
+.sidebar .nav-sidebar > .nav-item.menu-open > .nav-link,
+.sidebar .nav-sidebar > .nav-item > .nav-link:hover,
+.sidebar .nav-sidebar > .nav-item > .nav-link.active:hover,
+.sidebar .nav-sidebar > .nav-item.menu-open > .nav-link:hover,
+.sidebar .nav-sidebar > .nav-item.has-treeview > .nav-link:focus,
+.sidebar .nav.nav-treeview > .nav-item > .nav-link:hover,
+.sidebar .nav.nav-treeview > .nav-item > .nav-link.active:hover,
+.sidebar .nav-sidebar > .nav.nav-treeview > .nav-item > .nav-link:hover,
+.sidebar .nav-sidebar > .nav.nav-treeview > .nav-item > .nav-link.active:hover {
+    background-color: var(--theme_secondary_color);
+    color: var(--color_white-1);
+    opacity: 0.8;
+}
+/******************************************************************************/
 /*********  HEADER  ***********************************************************/
 /******************************************************************************/
 

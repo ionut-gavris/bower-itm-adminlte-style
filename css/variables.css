@@ -1,0 +1,79 @@
+/*
+Template:   This file is specific for Laravel projects
+Info:       This file will contain project specific variables as colors
+Web:        http://www.itmaniax.com
+*/
+/*****************************************************************************/
+/*
+Syntax: "var(custom-name, value)"
+
+Possible values for "value":
+    #fff
+    15px
+    FontAwesome
+    ...etc...
+
+How to give the name of the variable.
+    custom-name="--CSS-PROPERTIES_INTUITIVE-NAME_PSEUDO-CLASS"
+
+"custom name" parts:
+    1. "--" - mandatory
+    2. "CSS-PROPERTIES" - mandatory
+    3. "INTUITIVE-NAME" - mandatory
+    4. "PSEUDO-CLASS" - optional
+*/
+/*****************************************************************************/
+/*****************************************************************************/
+/*****************************************************************************/
+/****   COLORS      **********************************************************/
+/*****************************************************************************/
+:root {
+    --1: #FFFFFF;
+    --color_black-1: #000000;
+    --color_black-2: #343a40;
+    --color_grey-1: #dddddd;
+    --color_danger: #dc3545;
+    --color_danger-hover: #c82333;
+    --color_success: #28a745;
+    --color_success-hover: #218838;
+    --color_warning: #d39e00;
+    --color_warning-hover: #e0a800;
+    --color_info: #17a2b8;
+    --color_info-hover: #138496;
+    --color_primary: #007bff;
+    --color_primary-hover: #0069d9;
+    --color_secondary: #6c757d;
+    --color_secondary-hover: #5a6268;
+    --color_light: #f8f9fa;
+    --color_light-hover: #e2e6ea;
+    --color_dark: #343a40;
+    --color_dark-hover: #23272b;
+}
+/*****************************************************************************/
+/****   THEME      **********************************************************/
+/*****************************************************************************/
+:root {
+    --theme_primary_color: var(--color_light);
+    --theme_primary_color-hover:v ar(--color_light-hover);
+    --theme_secondary_color: var(--color_info);
+    --theme_secondary_color-hover: var(--color_info-hover);
+}
+/*****************************************************************************/
+/****   FONTS       **********************************************************/
+/*****************************************************************************/
+:root {
+    --font_fa: FontAwesome;
+    --font_f-1_regular: ;
+    --font_f-1_semi-bold: ;
+    --font_f-1_bold: ;
+    --font_f-1_extra-bold: ;
+    --font_f-1_medium-italic: ;
+    --font_f-2_regular: ;
+    --font_f-2_semi-bold: ;
+    --font_f-2_bold: ;
+    --font_f-2_extra-bold: ;
+    --font_f-2_medium-italic: ;
+}
+/*****************************************************************************/
+/*****************************************************************************/
+/*****************************************************************************/
